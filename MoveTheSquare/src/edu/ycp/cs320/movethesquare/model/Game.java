@@ -6,6 +6,10 @@ public class Game {
 	private Square square;
 	private double squareDx;
 	private double squareDy;
+	private double radius;
+	private Circle circle;
+	private double circleDx;
+	private double circleDy;
 	
 	public Game() {
 		
@@ -50,4 +54,39 @@ public class Game {
 	public double getSquareDy() {
 		return squareDy;
 	}
+	
+	//~~~~~~~~~~~~~~~~~~~~~Circle Time!~~~~~~~~~~~~~~~~~~~~~~
+	
+	public void setCircle(Circle circle) {
+		this.circle = circle;
+	}
+	
+	public Circle getCircle() {
+		return circle;
+	}
+	
+	public void setRadius(double radius) {
+		this.radius = radius;
+	}
+	
+	public double getRadius() {
+		return radius;
+	}
+	
+	public void setCircleDx(double Dx) {
+		this.circleDx = Dx;
+	}
+	
+	public double getCircleDx() {
+		return circleDx;
+	}
+	
+	public void setCircleDy(double Dy) {
+		this.circleDy = Dy;
+	}
+	
+	public double getCircleDy() {
+		return circleDy;
+	}
+	
 }
